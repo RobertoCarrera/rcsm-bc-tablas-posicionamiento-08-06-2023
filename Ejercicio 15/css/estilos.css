@@ -1,0 +1,9 @@
+/*Selector que apunta a la lista de diarios de España para convertir el 
+estilo en letras minúsculas*/
+ol ol:nth-child(2){
+    list-style: lower-latin;
+}
+/*Selector para cambiar los diarios de EEUU en números romanos*/
+ol ol:nth-child(4){
+    list-style: upper-roman;
+}

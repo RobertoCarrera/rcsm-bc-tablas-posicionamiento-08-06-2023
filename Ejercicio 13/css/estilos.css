@@ -1,0 +1,48 @@
+table{
+    width: 90%;
+    margin: 20px auto;
+    background-color: silver;
+    border: 3px solid gray;
+}
+
+caption{
+    font-weight: bold;
+}
+
+td{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+/* Selector que personaliza el fondo de CELDA 1 */
+table tr:first-child td{
+    background-color: lightgreen;
+    
+}
+
+/* Selector que personaliza los estilos de la CELDA 2 */
+table tr:nth-child(2) td:first-child{
+    background-color: rgb(2, 237, 245);
+    text-align: left;
+}
+
+/* Selectores que personalizan el color de fuente de las celdas que van en rojo*/
+table tr:nth-child(2) td:nth-of-type(2), table tr:nth-child(3) td:first-child, 
+table tr:last-child td:last-child{
+    color: red;
+}
+
+/* Selector que personaliza los estilos de la CELDA 6 */
+table tr:nth-child(3) td:last-child{
+    background-color: rgb(255, 0, 242);
+    position: relative;
+}
+
+/* Y aquí lo coloco abajo a la derecha de la celda */
+#celda6{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,131 @@
+/* No lo optimizo porque ya voy tarde */
+
+body{
+    background-image: url(../img/ac.jpg);
+}
+
+#manteles{
+    text-align: center;
+    height: 300px;
+    margin: 20px auto;
+    border: none;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#personas{
+    text-align: center;
+    height: 300px;
+    border: none;
+}
+
+#degradados{
+    text-align: center;
+    height: 300px;
+    border: none;
+}
+
+#manteles > div, #personas > div, #degradados > div {
+    display: inline-block;
+}
+
+div{
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+}
+
+#mantel1{
+    background-image: url(../img/back_mantel.jpg);
+    height: 250px;
+    width: 250px;
+}
+
+/* DEsconozco cómo hacer el efecto y no quiero entregar más tarde */
+#mantel2{
+    background-image: url(../img/back_mantel.jpg);
+    height: 250px;
+    width: 250px;
+    background-color: white;
+}
+
+#mantel3{
+    background-image: url(../img/back_mantel.jpg);
+    background-size: contain;
+    height: 250px;
+    width: 250px;
+}
+
+#mantel4{
+    background-image: url(../img/back_mantel.jpg);
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#persona1{
+    background-image: url(../img/dh.jpg);
+    height: 250px;
+    width: 250px;
+}
+
+#persona2{
+    background-image: url(../img/dh.jpg);
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+#persona3{
+    background-image: url(../img/dh_2.jpg);
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+#persona4{
+    background-image: url(../img/dh_3.jpg);
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+#degradado1{
+    background: linear-gradient(90deg, rgba(144,203,38,1) 35%, rgba(0,36,33,1) 100%);
+    height: 250px;
+    width: 250px;
+}
+
+#degradado2{
+    background: linear-gradient(0deg, rgba(228,160,76,1) 1%, rgba(153,84,0,1) 30%, rgba(254,142,44,1) 83%, rgba(255,255,255,1) 100%);
+    height: 250px;
+    width: 250px;
+}
+
+#degradado3{
+    background: linear-gradient(0deg, rgba(32,163,1,1) 4%, rgba(255,255,255,1) 100%);
+    height: 250px;
+    width: 250px;
+}
+
+#degradado4{
+    background: linear-gradient(0deg, rgba(32,163,1,0.6530987394957983) 9%, rgba(255,255,255,0) 79%);
+    height: 250px;
+    width: 250px;
+}

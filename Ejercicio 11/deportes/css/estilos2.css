@@ -13,6 +13,7 @@ table tr:nth-child(even){
     background-color: lightgreen;
 }
 
+/* Añado los estilos para los th */
 th{
     background-color: rgb(27, 110, 106);
     color: lightgreen;
@@ -21,3 +22,4 @@ th{
 td{
     padding: 2px;
 }
+/* Desaparece el selector porque colocar th's ya genera el estilo correcto */

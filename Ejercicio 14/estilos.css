@@ -1,0 +1,22 @@
+body{
+    background-image: url(./fondo_gato.jpg);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+table{
+    margin: 10em auto;
+    background-color: silver;
+    width: 450px;
+    text-align: center;
+    border: 5px outset rgb(192, 192, 192);
+}
+
+th{
+    background-color: white;
+}
+
+td{
+    background-color: yellow;
+}

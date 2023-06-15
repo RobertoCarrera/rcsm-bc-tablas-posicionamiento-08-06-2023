@@ -1,0 +1,18 @@
+table{
+    background-color: purple;
+    text-align: center;
+    width: 70%;
+    margin: 20px auto;
+}
+
+caption{
+    font-size: 32px;
+}
+
+td{
+    background-color: pink;
+}
+
+img{
+    max-width: 200px;
+}

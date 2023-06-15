@@ -1,0 +1,28 @@
+table{
+    border: 5px outset white;
+    padding: 1px;
+    background-color: skyblue;
+    width: 450px;
+}
+
+table tr:nth-child(odd){
+    background-color: green;
+}
+
+table tr:nth-child(even){
+    background-color: lightgreen;
+}
+
+th{
+    background-color: rgb(27, 110, 106);
+    color: lightgreen;
+}
+
+td{
+    padding: 2px;
+}
+
+tr:first-child td{
+    text-align: center;
+    font-weight: bold;
+}
